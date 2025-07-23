@@ -104,8 +104,7 @@ Results go to `results_re/`.
 │   ├── evaluate_mednli.py
 │   ├── evaluate_trec.py
 │   └── train.py
-├── results/                 # Raw inference outputs
-├── results_re/              # Evaluation results
+├── results/                 # Results
 ├── lora_outputs/            # Trained LoRA adapters
 ├── inference.sh             # Inference pipeline
 ├── train.sh                 # Training pipeline (SLURM)
