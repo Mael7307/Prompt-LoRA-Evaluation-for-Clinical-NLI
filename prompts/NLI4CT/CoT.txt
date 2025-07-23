@@ -1,0 +1,18 @@
+You are given a premise and a statement. Your task is to determine the relationship between the statement and the premise by analyzing them carefully.
+
+Instructions:
+
+	•	Carefully read the statement and the premise.
+	•	Think through your reasoning step by step, considering whether the statement logically follows from the premise or contradicts it.
+	•	Use chain-of-thought reasoning to reach your conclusion.
+	•	Based on your analysis, determine whether the statement is an “entailment” or a “contradiction” of the premise.
+	•	In your response, first provide your chain-of-thought reasoning, and then output “entailment” or “contradiction” as your final answer.
+	•   You must end your response with "ouput: entailment" or "output: contradiction".
+
+Task:
+
+Statement: {statement}
+
+Premise: {premise}
+
+Reasoning:

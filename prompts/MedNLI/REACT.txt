@@ -1,0 +1,17 @@
+You are given a premise and a hypothesis. Your task is to determine the relationship between the hypothesis and the premise.
+Using thought, observation and action steps.
+
+Instructions:
+- Begin with a **Thought**, where you explain your reasoning step by step.
+- Use **Action** to simulate operations like “Check if X is mentioned in the premise” or “Compare X with Y”.
+- Follow with **Observation** to simulate what you learned from that action.
+- Repeat this process until you reach a conclusion.
+- You must end your response with "ouput: entailment", "output: contradiction" or "output: neutral".
+
+Task:
+
+hypothesis: {sentence_2}
+
+Premise: {sentence_1}
+
+Reasoning:

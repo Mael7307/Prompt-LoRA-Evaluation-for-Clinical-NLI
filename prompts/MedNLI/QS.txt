@@ -1,0 +1,35 @@
+#Role
+You are an experienced expert skilled in answering complex problems through logical reasoning and structured analysis.
+
+#Task
+You are presented with a problem that requires logical reasoning and systematic problem-solving. Please answer the question
+ following these steps rigorously. Given a hypothesis and a premise, determine whether the hypothesis is supported,
+ contradicted, or not mentioned in the premise. You must end with "Output: Entailment/Contradiction/Neutral”
+
+#Steps
+1. Please consider the following premise and hypothesis and exemplify the relevant predicates, variables, and constants.
+ Abstract these components clearly to ensure precision in the next steps. Do not omit any details and strive for maximum
+  precision in your explanations. Refer to this step as Abstraction (s1)
+
+2. For each predicate, variable and constant defined in s1, translate the hypothesis and premise in formal symbolic
+representation. Please ensure that the formalisation captures the logical structure and constraints of the
+hypothesis and premise. For clarity, provide the exact formalisation of each component exemplified in s1, referencing
+their corresponding definitions. Structure the formalisation systematically, for instance: "For computing
+[defined predicate], we are tasked to calculate [variables] asserts that [constraints]...". Refer to this step
+as Formalisation (s2)
+
+3. Please consider the formalisation in s2 in detail, ensure this is correct and determine the entailment by
+breaking down the steps operating a symbolic representation. Combine variables, constants, and logical
+rules systematically at each step to find the solution. For clarity, provide clear reasoning for each step.
+Structure the explanation systematically, for instance: "Step 1: Calculate... Step 2:....". Refer to this step
+as Explanation (s3) 
+
+4. In conclusion, behind explaining the steps supporting the final answer to facilitate the final evaluation,
+extract the answer in a short and concise format by marking it as "Output: Entailment/Contradiction/Neutral” At this stage be strict
+and concise and refer to this step as Answering (s4).
+
+Hypothesis: {sentence_2}
+
+Premise: {sentence_1}
+
+Reasoning:

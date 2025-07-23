@@ -1,0 +1,21 @@
+You are given a premise and a hypothesis. Your task is to determine the relationship between the hypothesis and the premise by analyzing them carefully.
+
+Instructions:
+
+	•	Carefully read the hypothesis and the premise.
+	•	Think through your reasoning step by step, considering whether the hypothesis is supported, contradicted, or not mentioned in the premise.
+	•	Use chain-of-thought reasoning to reach your conclusion.
+	•	Based on your analysis, determine whether the hypothesis is an “entailment”, a “contradiction” or "neutral" to the premise.
+	•	In your response, first provide your chain-of-thought reasoning, and then output “entailment”, “contradiction” or "neutral" as your final answer.
+	•   You must end your response with "ouput: entailment", "output: contradiction" or "output: neutral".
+
+Task:
+
+In your response, first provide your chain-of-thought reasoning, and then output “entailment”, “contradiction” or "neutral" as your final answer.
+You must end your response with "ouput: entailment", "output: contradiction" or "output: neutral"..
+
+hypothesis: {sentence_2}
+
+Premise: {sentence_1}
+
+Reasoning:

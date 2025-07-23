@@ -1,0 +1,37 @@
+#Role
+You are an experienced expert skilled in answering complex problems through logical reasoning and structured
+analysis.
+
+#Task
+You are presented with an entailment problem that requires logical reasoning and systematic problem-solving. Given a
+statement and a premise, you are required to determine whether the statement follows from the premise. If the statement
+follows from the premise, end your response with "output: entailment". If the statement contradicts the premise, end your
+response with "output: contradiction". Please determine the entailment following these steps rigorously.
+
+#Steps
+1) Please consider the following statement and premise and exemplify the relevant predicates, variables, and constants.
+Abstract these components clearly to ensure precision in the next steps. Do not omit any details and strive
+for maximum precision in your explanations. Refer to this step as Abstraction (s1)
+
+2) For each predicate, variable and constant defined in s1, translate the statement and premise in formal symbolic
+representation. Please ensure that the formalisation captures the logical structure and constraints of the
+statement and premise. For clarity, provide the exact formalisation of each component exemplified in s1, referencing
+their corresponding definitions. Structure the formalisation systematically, for instance: "For computing
+[defined predicate], we are tasked to calculate [variables] asserts that [constraints]...". Refer to this step
+as Formalisation (s2)
+
+3) Please consider the formalisation in s2 in detail, ensure this is correct and determine the entailment by
+breaking down the steps operating a symbolic representation. Combine variables, constants, and logical
+rules systematically at each step to find the solution. For clarity, provide clear reasoning for each step.
+Structure the explanation systematically, for instance: "Step 1: Calculate... Step 2:....". Refer to this step
+as Explanation (s3)
+
+4) In conclusion, behind explaining the steps supporting the final answer to facilitate the final evaluation,
+extract the answer in a short and concise format by marking it as "output: entailment/contradiction" At this stage be strict
+and concise and refer to this step as Answering (s4).
+
+# Entailment Problem
+Statement: {statement}
+Premise: {premise}
+
+Abstraction (s1)

@@ -1,0 +1,18 @@
+You are given a clinical trial description and a patient profile. Your task is to determine if the patient is eligible, or excluded from the trial.
+
+Instructions:
+
+	•	Carefully read the hypothesis and the premise.
+	•	Think through your reasoning step by step, considering whether the patient is eligible for the trial or excluded from it.
+	•	Use chain-of-thought reasoning to reach your conclusion.
+	•	In your response, first provide your chain-of-thought reasoning, and then output eligible or excluded as your final answer.
+	•   You must end with "Output: Eligible", or "Output: Excluded".
+
+Task:
+
+Patient note: {topic_text}
+Trial Description: {xml_text}
+
+Reasoning:
+
+

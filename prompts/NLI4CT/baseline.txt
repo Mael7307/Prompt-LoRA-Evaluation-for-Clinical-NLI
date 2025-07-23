@@ -1,0 +1,7 @@
+Determine whether the statement is an entailment or a contradiction of the premise. Answer only with either "entailment" or "contradiction".
+
+Statement: {statement}
+
+Premise: {premise}
+
+Output:

@@ -1,0 +1,17 @@
+You are given a clinical trial description and a patient profile. Your task is to determine if the patient is eligible, 
+or excluded from the trial using thought, observation and action steps.
+
+Instructions:
+- Begin with a **Thought**, where you explain your reasoning step by step.
+- Use **Action** to simulate operations like “Check if X is mentioned in the premise” or “Compare X with Y”.
+- Follow with **Observation** to simulate what you learned from that action.
+- Repeat this process until you reach a conclusion.
+- You must end with "Output: Eligible", or "Output: Excluded".
+
+Task:
+
+Patient note: {topic_text}
+Trial Description: {xml_text}
+
+Reasoning:
+

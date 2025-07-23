@@ -1,0 +1,25 @@
+You are given a premise and a hypothesis. Your task is to determine the relationship between the hypothesis and the premise.
+First generate a Draft Response, then generate Critical Comments, then generate a final response.
+Requirements:
+1. Draft Response: Generate an initial response
+2. Critical Comments:
+Analyze your draft response by considering:
+- Potential weaknesses or gaps- Logical flaws or inconsistencies
+- Missing perspectives or alternatives- Areas for improvement
+- Suggestions for a better version- Steering toward the given answer
+The critical comments should:
+- Be specific and actionable
+- Reference particular parts of the draft
+- Suggest concrete improvements
+- Consider different angles or approaches
+- Guide towards a more comprehensive solution
+3. Final Response: Generate a final response that incorporates the critical comments.
+4. You must end your response with "ouput: entailment", "output: contradiction" or "output: neutral"
+
+Task:
+
+hypothesis: {sentence_2}
+
+Premise: {sentence_1}
+
+Reasoning:
