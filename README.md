@@ -39,7 +39,7 @@ We provide a unified pipeline for evaluating structured prompting strategies and
 ### 1. Clone this repo
 ```bash
 git clone https://github.com/Mael7307/Prompt-LoRA-Evaluation-for-Clinical-NLI.git
-cd ClinicalReasonBench
+cd Prompt-LoRA-Evaluation-for-Clinical-NLI
 ````
 
 ### 2. Build the Apptainer container
@@ -51,6 +51,14 @@ sbatch build_apptainer.sh
 This will produce `SACNLI.sif`, used by all scripts.
 
 ---
+🔑 Dataset Access
+📌 MedNLI (not redistributed)
+The MedNLI dataset cannot be distributed with this repository.
+To access it, please request it directly from the authors via PhysioNet:
+
+→ https://physionet.org/content/mednli/1.0.0/
+
+Once downloaded, place the MedNLI dataset in a local directory (e.g., ./MedNLI/) as expected by the scripts.
 
 ## 🚀 Usage
 
