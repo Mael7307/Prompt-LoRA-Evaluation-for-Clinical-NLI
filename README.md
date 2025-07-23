@@ -38,7 +38,7 @@ We provide a unified pipeline for evaluating structured prompting strategies and
 
 ### 1. Clone this repo
 ```bash
-git clone [https://github.com/YOUR_USERNAME/ClinicalReasonBench.git](https://github.com/Mael7307/Prompt-LoRA-Evaluation-for-Clinical-NLI.git)
+git clone https://github.com/Mael7307/Prompt-LoRA-Evaluation-for-Clinical-NLI.git
 cd ClinicalReasonBench
 ````
 
