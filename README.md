@@ -3,7 +3,7 @@
 This repository implements the experimental framework from our AAAI paper:
 
 > **Dissecting Clinical Reasoning in Language Models: A Comparative Study of Prompts and Model Adaptation Strategies**  
-> [[[paper link]](https://arxiv.org/abs/2507.04142)](link) | BibTeX: *(see below)*
+> [[[paper link]](https://arxiv.org/abs/2507.04142)] | BibTeX: *(see below)*
 
 We provide a unified pipeline for evaluating structured prompting strategies and parameter-efficient fine-tuning (LoRA) across multiple compact language models on clinical Natural Language Inference (NLI) tasks, including NLI4CT, MedNLI, and TREC.
 
