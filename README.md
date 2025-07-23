@@ -114,9 +114,10 @@ Results go to `results/`.
 │   └── train.py
 ├── results/                 # Results
 ├── lora_outputs/            # Trained LoRA adapters
-├── inference.sh             # Inference pipeline
-├── train.sh                 # Training pipeline (SLURM)
-├── evaluate.sh              # Evaluation script
+├── scripts/ 
+│   ├── inference.sh             # Inference pipeline
+│   ├── train.sh                 # Training pipeline (SLURM)
+│   ├── evaluate.sh              # Evaluation script
 └── build_apptainer.sh       # Apptainer container build
 ```
 
