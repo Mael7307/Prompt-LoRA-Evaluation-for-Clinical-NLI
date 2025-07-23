@@ -1,0 +1,54 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "json",
+  "dataset_size": 1370759,
+  "description": "",
+  "download_checksums": {
+    "C:/Users/maelj/Documents/Dev/Symbolic_Abstraction/TREC/Resources/Data/test_set.json": {
+      "num_bytes": 1456293,
+      "checksum": null
+    }
+  },
+  "download_size": 1456293,
+  "features": {
+    "topic_number": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "topic_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "xml_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "xml_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 2827052,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 1370759,
+      "num_examples": 400,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
