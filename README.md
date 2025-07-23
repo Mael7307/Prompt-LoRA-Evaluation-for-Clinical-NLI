@@ -89,7 +89,7 @@ Evaluates predictions across all datasets and saves metrics.
 bash evaluate.sh
 ```
 
-Results go to `results_re/`.
+Results go to `results/`.
 
 ---
 
