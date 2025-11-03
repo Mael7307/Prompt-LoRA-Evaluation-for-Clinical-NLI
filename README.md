@@ -1,6 +1,6 @@
 # 🧠 ClinicalReasonBench: Prompt & LoRA Evaluation for Clinical NLI
 
-This repository implements the experimental framework from our AAAI paper:
+This repository implements the experimental framework from our paper:
 
 > **Dissecting Clinical Reasoning in Language Models: A Comparative Study of Prompts and Model Adaptation Strategies**  
 > [[[paper link]](https://arxiv.org/abs/2507.04142)] | BibTeX: *(see below)*
@@ -138,7 +138,7 @@ bash evaluate.sh              # 4. Evaluate outputs
 
 ## 📄 Citation
 
-If you use this code or dataset, please cite our AAAI paper:
+If you use this code or dataset, please cite our paper:
 
 > **Dissecting Clinical Reasoning in Language Models: A Comparative Study of Prompts and Model Adaptation Strategies**
 
